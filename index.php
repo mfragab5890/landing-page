@@ -76,7 +76,8 @@
     </section>
   </main>
   <footer class="page__footer">
-    <p>&copy Udacity</p>
+    <p>© 2020 Copyright:
+    <a href="https://www.linkedin.com/in/mostafa-fouad-ragab/"> Mostafa Fouad</a></p>
   </footer>
   <script src="js/app.js" charset="utf-8"></script>
 </body>
