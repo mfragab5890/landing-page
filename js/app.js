@@ -90,7 +90,7 @@ for (const nav_item of nav_items) {                                   //add on c
 
 // Set sections as active
 
-for (let i = 0; i < sections_ln; i++) {
+for (let i = 0; i <= sections_ln; i++) {
   window.addEventListener('scroll', function (event) {
     let desired_scroll = (window.scrollY) + 50;            //desired sroll position tolerence
     console.log(desired_scroll);
