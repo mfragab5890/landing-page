@@ -94,7 +94,7 @@ for (let i = 0; i < sections_ln; i++) {
   window.addEventListener('scroll', function (event) {
     let desired_scroll = (window.scrollY) + 50;            //desired sroll position tolerence
     console.log(desired_scroll);
-  if (i != (sections_ln-1)) {
+  
     if ( (sections[i].offsetTop <= desired_scroll ) && (desired_scroll <= sections[i+1].offsetTop)) {
 
       const actv_id = sections[i].id;
@@ -103,17 +103,7 @@ for (let i = 0; i < sections_ln; i++) {
 
     }
   }
-  else {
-    if ((sections[i].offsetTop <= desired_scroll )) {
-
-      const actv_id = sections[i].id;
-      document.querySelector(".your-active-class").className = ""
-      document.getElementById(actv_id).className = 'your-active-class';
-
-    }
-
-  }
-})
+  
 }
 
 // test
