@@ -102,7 +102,7 @@ for (let i = 0; i < sections_ln; i++) {
       document.getElementById(actv_id).className = 'your-active-class';
 
     }
-  }
+  })
   
 }
 
